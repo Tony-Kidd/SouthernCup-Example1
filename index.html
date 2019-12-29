@@ -1,0 +1,418 @@
+<!--
+Author: Tony Kidd
+Author URL: https://tonykidd.com
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Southern Cup | Home </title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/component.css" rel="stylesheet" type="text/css"  />
+
+<link rel="shortcut icon" href="images/southerncup.jpg" type="image/x-icon" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="The Southern Cup, Shelbyville, Shelbyville TN, coffee tennessee," />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/bootstrap.js"> </script>
+<script src="js/modernizr.custom.js"></script>
+<!--//js-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+
+</head>
+  <!--start-home-->
+ <body class="cbp-spmenu-push">
+       <!--top-header-->
+		<!--bottom-->
+		  <section class="button">
+					<button id="showLeftPush"><img src="images/menu-icon.png" alt=""></button>
+		   </section>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h3>Menu</h3>
+				<a class="active scroll" href="#house">Home</a>
+				<a class="scroll" href="#about">About</a>
+				<a class="scroll" href="#service">Services</a>
+				<a class="scroll" href="#test">Testimonials</a>
+				<a class="scroll" href="#team">Team</a>
+				<a class="scroll" href="#gallery">Gallery</a>
+				<a class="scroll" href="#price">Prices</a>
+				<a class="scroll" href="#contact">Contact</a>
+
+
+		  </nav>
+	      <div class="banner" id="house">
+				</div>
+			 </div>
+		 </div>
+		<!-- Classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				showRightPush = document.getElementById( 'showRightPush' ),
+				body = document.body;
+
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+				if( button !== 'showRightPush' ) {
+					classie.toggle( showRightPush, 'disabled' );
+				}
+			}
+		</script>
+  <!--start-about-->
+     <div class="about-section" id="about">
+	    <div class="container">
+			<div class="title-head">
+		       <h3 class="title">About</h3>
+			   <h4>About</h4>
+			</div>
+		    <div class="about-top">
+				<div class="col-md-6 about-text">
+				   <h5>Welcome to Our Cafe...</h5>
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				  <p>Dolor amet At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia anim</p>
+		    </div>
+			<div class="col-md-6 about-pic">
+		            <img src="images/southerncup21.jpg"/>
+		    </div>
+				<div class="clearfix"> </div>		
+		    </div>
+		</div>
+	 </div>
+  <!--//about-->
+    <!--start-services-->
+     <div class="service-section" id="service">
+	    <div class="container">
+			<div class="title-head ser">
+		       <h3 class="title">Services</h3>
+			   <h4>Services</h4>
+			</div>
+		    <div class="serve-grids">
+			      <div class="col-md-6 serve-left">
+							<div class="col-md-6 service-grid">
+							</div>
+							<div class="col-md-6 service-grid">
+								<h5>Coffee</h5>
+								<p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+							</div>
+							<div class="clearfix"></div>
+					 </div>
+					 <div class="col-md-6 serve-img">
+					    <img src="images/southerncup199.jpg"/>
+					 </div>
+					 <div class="clearfix"></div>
+					<div class="col-md-6 serve-img two">
+					    <img src="images/southerncup4.jpg"/>
+					 </div>
+					  <div class="col-md-6 serve-left two">
+							<div class="col-md-6 service-grid">
+								<h5>Baked Goods</h5>
+								<p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+							</div>
+							<div class="col-md-6 service-grid">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-md-6 serve-left">
+							<div class="col-md-6 service-grid">
+							</div>
+							<div class="col-md-6 service-grid">
+								<h5>Lotus Energy Drinks</h5>
+								<p>Plant based, all natural, pure cane sugar, hundreds of flavors. Also available in sugar free options!</p>
+							</div>
+							<div class="clearfix"></div>
+					 </div>
+					 <div class="col-md-6 serve-img">
+					    <img src="images/southerncup1111.jpg"/>
+					 </div>
+
+					</div>
+
+		</div>
+	 </div>
+  <!--//about-->
+  <div class="testimonials" id="test">	
+	  <div class="container">
+	   <div class="title-head">
+		       <h3 class="title">Testimonials</h3>
+			   <h4>Testimonials</h4>
+			</div>
+		<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="testi-top">
+								<div class="col-md-3 testi-img">
+									<img src="images/c2.jpg" alt=""/>
+								</div>
+								<div class ="col-md-9 monal-text">
+								<h4>Feugiat lorem</h4>
+								<p>Duis vitae feugiat lorem. Mauris eget ipsum sapien. Praesent euismod nec risus id tempor In sit amet sapien eros risus id tempor In sit amet sapien eros. Praesent euismod nec risus id tempor In sit amet sapien eros. Integer in tincidunt velit. Ut in tinciduntDuis vitae feugiat lorem. Mauris eget ipsum sapien. Praesent euismod nec risus id tempor In sit amet sapien eros. Integer in tincidunt velit. Ut in tincidunt</p>								
+								</div>	
+								<div class="clearfix"></div>								
+							</div>
+						</li>
+						<li>
+							<div class="testi-top">
+								<div class="col-md-3 testi-img">
+									<img src="images/c1.jpg" alt=""/>
+								</div>
+								<div class ="col-md-9 monal-text">
+								<h4>Feugiat lorem</h4>
+								<p>Duis vitae feugiat lorem. Mauris eget ipsum sapien. Praesent euismod nec risus id tempor In sit amet sapien eros risus id tempor In sit amet sapien eros. Praesent euismod nec risus id tempor In sit amet sapien eros. Integer in tincidunt velit. Ut in tincidunt Duis vitae feugiat lorem. Mauris eget ipsum sapien. Praesent euismod nec risus id tempor In sit amet sapien eros. Integer in tincidunt velit. Ut in tincidunt</p>								
+								</div>	
+								<div class="clearfix"></div>								
+							</div>
+						</li>
+						<li>
+							<div class="testi-top">
+								<div class="col-md-3 testi-img">
+									<img src="images/t2.jpg" alt=""/>
+								</div>
+								<div class ="col-md-9 monal-text">
+								<h4>Feugiat lorem</h4>
+								<p>Duis vitae feugiat lorem. Mauris eget ipsum sapien. Praesent euismod nec risus id tempor In sit amet sapien eros risus id tempor In sit amet sapien eros. Praesent euismod nec risus id tempor In sit amet sapien eros. Integer in tincidunt velit. Ut in tincidunt Duis vitae feugiat lorem. Mauris eget ipsum sapien. Praesent euismod nec risus id tempor In sit amet sapien eros. Integer in tincidunt velit. Ut in tincidunt</p>								
+								</div>	
+								<div class="clearfix"></div>								
+							</div>
+						</li>
+				
+					</ul>
+				</div>
+		</div>
+	</div>
+	<!-- banner-text Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+				$(function () {
+				// Slideshow 3
+					$("#slider3").responsiveSlides({
+					auto: true,
+					pager:true,
+					nav:false,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+					$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+						$('.events').append("<li>after event fired.</li>");
+					}
+				});	
+			});
+		</script>
+	 <!--team-->
+			<div class="team-section" id="team">
+				<div class="container">
+					<div class="title-head ser">
+						<h3 class="title">Team</h3>
+						<h4>Team</h4>
+					</div>
+					<div class="team-top">
+							<div class="col-md-3 view fifth-effect">
+								 <a href="#" title="Full Image"><img src="images/t1.jpg" /></a>
+								 <div class="mask"></div>
+							</div>     
+							
+							<div class="col-md-3 view fifth-effect">
+								 <a href="#" title="Full Image"><img src="images/t2.jpg" /></a>
+								 <div class="mask"></div>
+							</div>     
+							
+							<div class="col-md-3  view fifth-effect">
+								 <a href="#" title="Full Image"><img src="images/t3.jpg" /></a>
+								 <div class="mask"></div>
+							</div>     
+							
+							<div class="col-md-3 view fifth-effect">
+								 <a href="#" title="Full Image"><img src="images/t4.jpg" /></a>
+								 <div class="mask"></div>
+							</div>                
+							<div class="clearfix"></div>
+						</div>
+				  </div>
+			</div>
+<!--start-gallery-->
+<div class="gallery" id="gallery">
+	<div class="container">
+	   <div class="title-head">
+		       <h3 class="title">Gallery</h3>
+			   <h4>Gallery</h4>
+			</div>
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/southerncup26.jpg" class="swipebox"><img src="images/southerncup26.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Iced Latte</h4>
+							<p>The Southern Cup</p>
+							
+						</div>
+				</a>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/southerncup29.jpg" class="swipebox"><img src="images/southerncup29.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Iced Cold Brew Latte</h4>
+							<p>The Southern Cup</p>
+						
+						</div>
+				</a>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/southerncup30.jpg" class="swipebox"><img src="images/southerncup30.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Butterfinger Frappe</h4>
+							<p>The Southern Cup</p>
+							
+						</div>
+				</a>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/southerncup9.jpg" class="swipebox"><img src="images/southerncup9.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Iced Coffee</h4>
+							<p>The Southern Cup</p>
+							
+						</div>
+				</a>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/southerncup28.jpg" class="swipebox"><img src="images/southerncup28.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Blue Raspberry Atomic Sunrise</h4>
+							<p>The Southern Cup</p>
+							
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/southerncup27.jpg" class="swipebox"><img src="images/southerncup27.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Homemade Fruit Tea</h4>
+							<p>The Southern Cup</p>
+					   </div>
+				   </a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>	
+	</div>
+		<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+	<!--//gallery-->
+				<!-- pricing -->
+<div id="price" class="pricing">
+	<div class="container">
+	<div class="title-head ser">
+						<h3 class="title">Prices</h3>
+						<h4>Prices</h4>
+					</div>
+					<div class="serve-grids">
+			      <div class="col-md-6 serve-left">
+							<div class="col-md-6 service-grid">
+							</div>
+							<div class="clearfix"></div>
+					 </div>
+					    <img src="images/southerncup2.jpg" width="1150px"/>
+					 </div>
+					 <div class="clearfix"></div>
+					
+	</div>
+	</div>
+</div>
+<!-- //pricing -->
+<!--contact-->
+   <div class="contact" id="contact">
+	 <div class="container">
+		 <div class="title-head">
+		       <h3 class="title">Contact</h3>
+			   <h4>Contact</h4>
+			</div>
+			<div class="contact-form">
+					<div class="col-md-6 contact-grid">
+					<form>
+						<p class="your-para">Your name:</p>
+						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<p class="your-para">Your mail:</p>
+						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<p class="your-para">Your message:</p>
+						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+						<div class="send">
+							<input type="submit" value="Send" >
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6 contact-in">
+					<p class="sed-para"> Contact Info</p>
+					<p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  </p>
+					<div class="more-address"> 
+						<div class="address-more">
+						  <p class="location"><i class="glyphicon glyphicon-map-marker"></i>810 N Main St, Shelbyville, TN 37160</p>
+					      <p class="phone"><i class="glyphicon glyphicon-phone"></i>(931) 735-6910</p>
+					      <p class="mail"><i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@example.com">mail@example.com</a></p>
+
+						</div>
+				      </div>
+				</div>
+				<div class="clearfix"> </div>
+			   </div>
+	</div>
+</div>
+
+	<!--/footer-->
+			<div class="copy">
+		              <p>&copy; 2020 The Southern Cup. All Rights Reserved | Design by <a href="https://tonykidd.com">Kidd Web Design & Development</a> </p>
+		            </div>
+							<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#house" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
